@@ -1,5 +1,6 @@
-plt.style.use('ggplot')
-params = {"text.usetex" : True,
+
+params = {"axes.grid": True,
+          "text.usetex" : True,
           "font.family" : "serif",
           "ytick.color" : "black",
           "xtick.color" : "black",
