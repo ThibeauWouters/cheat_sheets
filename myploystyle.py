@@ -1,3 +1,4 @@
+plt.style.use('seaborn')
 params = {"ytick.color" : "black",
           "xtick.color" : "black",
           "axes.labelcolor" : "black",
