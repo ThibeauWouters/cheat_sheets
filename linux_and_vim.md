@@ -1,5 +1,6 @@
 __Linux:__
 - In terminal: run `&` to run in background and still use command line input
+- Replace strings in files throughout document: `sed -i 's/old-text/new-text/g' input.txt` 
 
 
 __Potsdam cluster:__
