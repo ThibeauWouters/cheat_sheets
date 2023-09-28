@@ -8,3 +8,13 @@ import requests
 script_url = "https://raw.githubusercontent.com/ThibeauWouters/cheat_sheets/main/myploystyle.py"
 exec(requests.get(script_url).text)
 ```
+
+
+__JAX__
+
+
+Show the architecture to the screen:
+```python
+net = MLP(layer_sizes = config.layer_sizes, act_func = config.act_func)
+print(net.tabulate(jax.random.PRNGKey(0), jnp.ones(input_ndim)))
+```
