@@ -13,5 +13,5 @@ params = {"axes.grid": True,
           "legend.fontsize": 16,
           "legend.title_fontsize": 16,
           "figure.titlesize": 16
-}
+         }
 plt.rcParams.update(params)
