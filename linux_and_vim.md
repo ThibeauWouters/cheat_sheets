@@ -10,5 +10,5 @@ __Potsdam cluster:__
 - Tmux: kill session, do `Ctrl + A`, `Ctrl + B`, and type `:kill-session`
 - Tmux: detach, do `Ctrl + B` then `d`
 - Tmux: list sessions: `tmux ls`
-- 
+- Kill GPU from nvidia-smi: `nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9`
 
