@@ -11,4 +11,4 @@ __Potsdam cluster:__
 - Tmux: detach, do `Ctrl + B` then `d`
 - Tmux: list sessions: `tmux ls`
 - Kill GPU from nvidia-smi: `nvidia-smi | grep 'python' | awk '{ print $5 }' | xargs -n1 kill -9`
-
+- Copy files from Potsdam cluster to local (run in local terminal): `scp -r twouters@potsdam.enlil:/remote/dir/ /target/dir/`
