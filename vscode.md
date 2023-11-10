@@ -1,0 +1,4 @@
+- Open the command palette: `Ctrl+Shift+P`
+- Open a new window: `Ctrl+Cmd+N`
+- Jump back after using shortcut to jump towards function definition: `^-`
+- Jump to a line: `Ctrl+G`
