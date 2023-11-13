@@ -17,3 +17,9 @@ Compare changes between local and remote
 ```
 git diff <local branch> <remote>/<remote branch> (e.g. git diff main origin/main)
 ```
+Publish new branch
+```
+git push -u origin <branch>
+```
+
+
