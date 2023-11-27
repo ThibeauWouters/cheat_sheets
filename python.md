@@ -18,3 +18,10 @@ Show the architecture to the screen:
 net = MLP(layer_sizes = config.layer_sizes, act_func = config.act_func)
 print(net.tabulate(jax.random.PRNGKey(0), jnp.ones(input_ndim)))
 ```
+
+Use a specific GPU device:
+```python
+chosen_device = jax.devices()[2] # e.g. device with index 2
+jax.config.update("jax_platform_name", "gpu")
+jax.config.update("jax_default_device", chosen_device)
+```
