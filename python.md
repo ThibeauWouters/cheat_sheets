@@ -25,3 +25,8 @@ chosen_device = jax.devices()[2] # e.g. device with index 2
 jax.config.update("jax_platform_name", "gpu")
 jax.config.update("jax_default_device", chosen_device)
 ```
+But even better, put this code at the top to select the GPU, but make sure it is placed BEFORE importing the relevant package
+```python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+```
