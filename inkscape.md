@@ -1,0 +1,1 @@
+- Cut out shape: Select Both and Do: Object --> Clip --> Set
