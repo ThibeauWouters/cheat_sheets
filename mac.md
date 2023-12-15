@@ -9,3 +9,4 @@ Terminal stuff:
 - Untar: `tar -xvf LotsOfFiles.tgz`
 - To open your current directory in Finder from Terminal, type `open .`
 - Determine storage space of folder: `du -hs /path/to/directory`
+- Redo: `Command-Shift-Z`
