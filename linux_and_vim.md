@@ -11,6 +11,10 @@ Nicely formatted, which also shows memory usage:
 ```bash
 ps -eo user,pid,%mem,rss,vsz,command | grep 3145954 | awk '{print "User:", $1, "PID:", $2, "%MEM:", $3, "RSS:", $4, "VSZ:", $5, "Command:", $6}'
 ```
+See the memory usage of files and directories in megabytes:
+```bash
+du -h -m /path/to/directory
+```
 
 
 __Potsdam cluster:__
