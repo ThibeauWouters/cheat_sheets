@@ -29,5 +29,5 @@ default_corner_kwargs = dict(bins=40,
                         fill_contours=True,
                         max_n_ticks=4, 
                         min_n_ticks=3,
-                        truth_color = {"red"},
+                        truth_color = "red",
                         save=False)
